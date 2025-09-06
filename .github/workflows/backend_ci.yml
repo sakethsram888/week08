@@ -108,7 +108,7 @@ jobs:
           POSTGRES_PASSWORD: postgres
         run: |
           pytest tests --maxfail=1 --disable-warnings -q
-
+ 
   # Job 2: Build and Push Docker Images (runs only if tests pass)
   build_and_push_images:
     runs-on: ubuntu-latest
