@@ -35,7 +35,7 @@ jobs:
       product_db:
         image: postgres:15
         env:
-          POSTGRES_USER: postgres
+          POSTGRES_USER: postgres 
           POSTGRES_PASSWORD: postgres
           POSTGRES_DB: products
         # Make pg_isready available so the service is healthy before tests run
